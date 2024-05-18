@@ -1,0 +1,27 @@
+[project]
+name = "pyrula-software"
+version = "0.1.0"
+description = "A pyrula service."
+authors = [
+    {name="Name", email="example@email.com"}
+]
+readme = "README.md"
+classifiers = [
+    "Topic :: Software Development :: Machine Learning Tools",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.11"
+
+dependencies = [
+    "mkdocs~=1.0",
+    "mkdocstrings[python]>=0.20.0",
+    "mkdocs-material~=9.0",
+    "mkdocs-include-markdown-plugin~=6.0",
+]
+
+# [build-system]
+# requires - ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"
