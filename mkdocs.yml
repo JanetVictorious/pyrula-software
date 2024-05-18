@@ -1,7 +1,7 @@
 ---
 site_name: pyrula
 site_description: Consulting
-# site_url: https://JanetVictorious.github.io/pyrula-software
+site_url: https://JanetVictorious.github.io/pyrula-software
 
 theme:
   name: material
