@@ -1,10 +1,29 @@
 ---
-site_name: pyrula
+site_name: Pyrula
 site_description: Consulting
-site_url: https://JanetVictorious.github.io/pyrula-software
+site_url: https://janetvictorious.github.io/pyrula.github.io/
 
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
   features:
     - content.tabs.link
     - content.code.annotate
@@ -12,8 +31,8 @@ theme:
     - announce.dismiss
     - navigation.tabs
 
-# repo_name: janetvictorious/ai-sample-pipelines
-# repo_url: https://github.com/JanetVictorious/ai-sample-piplines
+# repo_name: Pyrula
+# repo_url: https://github.com/JanetVictorious/pyrula
 
 validation:
   omitted_files: warn
@@ -21,10 +40,8 @@ validation:
   unrecognized_links: warn
 
 nav:
-  - Welcome:
-      - pyrula: index.md
-  - Solutions:
-      - deliveries: solutions.md
+  - Pyrula:
+      - Welcome: index.md
 
 markdown_extensions:
   - tables
@@ -43,7 +60,7 @@ markdown_extensions:
       alternate_style: true
 
 plugins:
-  # - search
+  - search
   - include-markdown
   - mkdocstrings:
       default_handlers: python
